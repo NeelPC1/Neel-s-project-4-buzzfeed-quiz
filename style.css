@@ -1,8 +1,8 @@
 /* General body styling */
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: pink;
+    color: black;
     line-height: 1.6;
     padding: 20px;
 }
@@ -10,7 +10,7 @@ body {
 /* Title section styling */
 .title h1 {
     text-align: center;
-    color: #333;
+    color: black;
 }
 
 /* Questions section styling */
@@ -20,17 +20,25 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    font-weight: 200;
+    font-size: larger;
+    size:larger;
 }
 
-.questions h4 {
-    color: #666;
+h2{
+    color: black;
+    font-size: larger;
+    position:center;
+    text-align: center;
 }
 
-.questions img {
-    width: 100%; /* Make images responsive */
+img {
+    width: 90%; /* Make images responsive */
     height: auto;
-    border-radius: 8px;
-    margin-top: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    min-width: 40vw;
 }
 
 /* Result section styling */
@@ -41,4 +49,50 @@ body {
     margin-top: 20px;
     border-radius: 8px;
     font-size: 1.2em;
+}
+
+button{
+    background-color:#50C878;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    display:absolute;
+    text-align: center;
+    
+}
+.options{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.option{
+    position: relative;
+    text-align:center;
+}
+
+.outfit{
+display:block;    
+}
+.vibe{
+    display:none;
+}
+.genre{
+    display:none;
+}
+.vacation{display: none;}
+.result{
+    display:none;
+    background:#E6E6FA;
+    color: black;
+}
+.restart{
+    font-size: larger;
+
 }
