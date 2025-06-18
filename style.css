@@ -36,15 +36,14 @@ h2{
 }
 
 img {
-    width: 40%; /* Make images responsive */
-    margin-left: 10%;
+    width: 70%; /* Make images responsive */
+    margin-left: 15%;
+    margin-right:20%;
     height: auto;
     border-radius: 15px;
     margin-top: 20px;
-    min-width: 40vw;
     cursor: pointer;
-    margin-right:10%;
-
+    min-width: 35vw;
 }
 
 /* Result section styling */
