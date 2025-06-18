@@ -39,6 +39,8 @@ img {
     border-radius: 15px;
     margin-top: 20px;
     min-width: 40vw;
+    cursor: pointer;
+
 }
 
 /* Result section styling */
@@ -95,4 +97,8 @@ display:block;
 .restart{
     font-size: larger;
 
+}
+
+.photo{
+    display:none;
 }

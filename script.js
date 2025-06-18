@@ -6,7 +6,7 @@ let lana = 0;
 let laufey = 0;
 let kanye = 0;
 let x = 0;
-
+let photo = document.querySelector(".photo");
 let buttons = document.querySelectorAll(".option");
 let outfit = document.querySelector(".outfit");
 let vibe = document.querySelector(".vibe");
@@ -47,28 +47,40 @@ buttons.forEach(function (button) {
       outfit.style.display = "block";
       genre.style.display = "none";
       result.style.display = "none";
+      photo.style.display = "none";
     } else if (order === 1) {
       vacation.style.display = "none";
       vibe.style.display = "block";
       outfit.style.display = "none";
       genre.style.display = "none";
+      photo.style.display = "none";
     } else if (order === 2) {
       vacation.style.display = "block";
       vibe.style.display = "none";
       outfit.style.display = "none";
       genre.style.display = "none";
+      photo.style.display = "none";
     } else if (order === 3) {
       vacation.style.display = "none";
       vibe.style.display = "none";
       outfit.style.display = "none";
       genre.style.display = "block";
+      photo.style.display = "none";
     } else if (order === 4) {
+      vacation.style.display = "none";
+      vibe.style.display = "none";
+      outfit.style.display = "none";
+      genre.style.display = "none";
+      photo.style.display = "block";
+      result.style.display = "none";
+    } else if (order === 5) {
       vacation.style.display = "none";
       vibe.style.display = "none";
       outfit.style.display = "none";
       genre.style.display = "none";
       order = -1;
       result.style.display = "block";
+      photo.style.display = "none";
       
         
         
