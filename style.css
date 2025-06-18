@@ -106,3 +106,7 @@ display:block;
 .photo{
     display:none;
 }
+.resultImage{
+    width: 80%;
+    min-width: 40vw;
+}

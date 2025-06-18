@@ -1,4 +1,5 @@
 // JavaScript goes here.
+//7 different endings
 let kendrick = 0;
 let carti = 0;
 let tyler = 0;
